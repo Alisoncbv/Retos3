@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Ejecucion {
 
     public static void main(String[] args) {
-         
+     
+        /*  
         String nombreE;
         
         //Instanciar la clase Enfermedad
@@ -21,7 +22,7 @@ public class Ejecucion {
         cancer.mostrarEnfermedad();
         
 
-/*        
+      
         //Concultar get
         System.out.println(enfermedad.getNomEnfermedad());
 
@@ -34,13 +35,12 @@ public class Ejecucion {
         nombreE=leer.next();
 
         enfermedad.setNomEnfermedad(nombreE);
-*/
 
         
         
         
 
-         /*
+
         //Invocar metodos (argumentos)
         dato.calcularEdad(2006);
 
@@ -62,6 +62,23 @@ public class Ejecucion {
         operacion.multiplicación(num1, num2);
         operacion.división(num1, num2);
     */
+
+
+        //Instanciar clase Caraysello
+        Caraysello cys=new Caraysello();
+
+        //Invocar metodos
+        cys.iniciar();
+        cys.jugar();
+        cys.finalizar();
+
+        Ppt p=new Ppt();
+
+        //Invocar metodos
+        p.iniciar();
+        p.jugar();
+        p.finalizar();
+
     }
     
 }
